@@ -1,3 +1,3 @@
 # cairo-lang-official-exercices
 
-Little exercices that aim to grasp the Cairo language
+## How Cairo Works : exercises from Cairo website that aim to grasp low level aspects of the language
