@@ -1,0 +1,14 @@
+https://www.cairo-lang.org/docs/how_cairo_works/cairo_intro.html#memory-model
+
+Exercise
+1. Write nondeterministic pseudocode for proving that the equation x**7 + x + 18 = 0 has a solution.
+
+2. Write nondeterministic pseudocode for proving that the same equation has at least two different solutions.
+
+1. 
+    - magically guess the value of x
+    - compute x in the equation and make sure the result is equal to 0
+
+2. 
+    - magically guess the values of 2 different x's
+    - compute the 2 different values of x in the equation and make sure the result is equal to 0
