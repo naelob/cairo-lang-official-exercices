@@ -1,0 +1,473 @@
+{
+    "attributes": [],
+    "builtins": [],
+    "data": [
+        "0x480680017fff8000",
+        "0x2",
+        "0x480680017fff8000",
+        "0x7",
+        "0x1104800180018000",
+        "0x5",
+        "0x400680017fff7fff",
+        "0x80",
+        "0x208b7fff7fff7ffe",
+        "0x20780017fff7ffd",
+        "0x5",
+        "0x480680017fff8000",
+        "0x1",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffc7fff8000",
+        "0x482680017ffd8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff9",
+        "0x48487ffc7fff8000",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 3,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 3
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 4
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 2
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 13,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 5
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 7
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 8,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 8
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 27,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 12
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 13
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 8,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 14
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 17
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 18
+                }
+            },
+            "17": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 13,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 19
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 20
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.exp"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.exp.n": 1,
+                        "__main__.exp.x": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 8,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "recursion.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 21
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.exp": {
+            "decorators": [],
+            "pc": 9,
+            "type": "function"
+        },
+        "__main__.exp.Args": {
+            "full_name": "__main__.exp.Args",
+            "members": {
+                "n": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.exp.ImplicitArgs": {
+            "full_name": "__main__.exp.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.exp.Return": {
+            "cairo_type": "(res : felt)",
+            "type": "type_definition"
+        },
+        "__main__.exp.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.exp.exp_body": {
+            "pc": 14,
+            "type": "label"
+        },
+        "__main__.exp.n": {
+            "cairo_type": "felt",
+            "full_name": "__main__.exp.n",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 9,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.exp.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.exp.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 9,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 9,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 9,
+                "value": "[cast(fp + (-3), felt*)]"
+            }
+        ]
+    }
+}
