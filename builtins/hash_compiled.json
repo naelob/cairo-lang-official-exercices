@@ -1,0 +1,1851 @@
+{
+    "attributes": [],
+    "builtins": [
+        "output",
+        "pedersen"
+    ],
+    "data": [
+        "0x400380007ffb7ffc",
+        "0x400380017ffb7ffd",
+        "0x482680017ffb8000",
+        "0x3",
+        "0x480280027ffb8000",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x0",
+        "0x480a7ffd7fff8000",
+        "0x480680017fff8000",
+        "0x2",
+        "0x480680017fff8000",
+        "0x4",
+        "0x480680017fff8000",
+        "0x12",
+        "0x1104800180018000",
+        "0x12",
+        "0x400280007ffc7fff",
+        "0x482680017ffc8000",
+        "0x1",
+        "0x48127ffd7fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x400380007ffa7ffb",
+        "0x400380017ffa7ffc",
+        "0x400380027ffa7ffd",
+        "0x402780017ffa7ffa",
+        "0x3",
+        "0x400380007ffa7ffd",
+        "0x400380017ffa7ffd",
+        "0x482680017ffa8000",
+        "0x3",
+        "0x480280027ffa8000",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffa7fff8000",
+        "0x480a7ffb7fff8000",
+        "0x480a7ffc7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffdd",
+        "0x480a7ffd7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffda",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.hash",
+                    "starkware.cairo.common.hash.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.hash.hash2.hash_ptr": 2,
+                        "starkware.cairo.common.hash.hash2.x": 0,
+                        "starkware.cairo.common.hash.hash2.y": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 14
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.hash",
+                    "starkware.cairo.common.hash.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.hash.hash2.hash_ptr": 2,
+                        "starkware.cairo.common.hash.hash2.x": 0,
+                        "starkware.cairo.common.hash.hash2.y": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 15,
+                    "input_file": {
+                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 15
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.hash",
+                    "starkware.cairo.common.hash.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.hash.hash2.hash_ptr": 4,
+                        "starkware.cairo.common.hash.hash2.result": 3,
+                        "starkware.cairo.common.hash.hash2.x": 0,
+                        "starkware.cairo.common.hash.hash2.y": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 47,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 35,
+                            "end_line": 13,
+                            "input_file": {
+                                "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 27,
+                                    "end_line": 18,
+                                    "input_file": {
+                                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 18
+                                },
+                                "While trying to retrieve the implicit argument 'hash_ptr' in:"
+                            ],
+                            "start_col": 12,
+                            "start_line": 13
+                        },
+                        "While expanding the reference 'hash_ptr' in:"
+                    ],
+                    "start_col": 20,
+                    "start_line": 17
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.hash",
+                    "starkware.cairo.common.hash.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.hash.hash2.hash_ptr": 4,
+                        "starkware.cairo.common.hash.hash2.result": 3,
+                        "starkware.cairo.common.hash.hash2.x": 0,
+                        "starkware.cairo.common.hash.hash2.y": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 33,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 26,
+                            "end_line": 18,
+                            "input_file": {
+                                "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                            },
+                            "start_col": 20,
+                            "start_line": 18
+                        },
+                        "While expanding the reference 'result' in:"
+                    ],
+                    "start_col": 18,
+                    "start_line": 16
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.hash",
+                    "starkware.cairo.common.hash.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.hash.hash2.hash_ptr": 4,
+                        "starkware.cairo.common.hash.hash2.result": 3,
+                        "starkware.cairo.common.hash.hash2.x": 0,
+                        "starkware.cairo.common.hash.hash2.y": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 27,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 18
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 7
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 50,
+                    "end_line": 6,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 53,
+                            "end_line": 9,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "start_col": 41,
+                            "start_line": 9
+                        },
+                        "While expanding the reference 'pedersen_ptr' in:"
+                    ],
+                    "start_col": 23,
+                    "start_line": 6
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 56,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 55,
+                    "start_line": 9
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 59,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 58,
+                    "start_line": 9
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 63,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 61,
+                    "start_line": 9
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 64,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 19,
+                    "start_line": 9
+                }
+            },
+            "17": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 5,
+                        "__main__.main.pedersen_ptr": 7,
+                        "__main__.main.res_2": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 13
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9,
+                        "__main__.main.pedersen_ptr": 7,
+                        "__main__.main.res_2": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 21,
+                            "end_line": 6,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 17,
+                                    "input_file": {
+                                        "filename": "hash.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 17
+                                },
+                                "While trying to retrieve the implicit argument 'output_ptr' in:"
+                            ],
+                            "start_col": 11,
+                            "start_line": 6
+                        },
+                        "While expanding the reference 'output_ptr' in:"
+                    ],
+                    "start_col": 22,
+                    "start_line": 14
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9,
+                        "__main__.main.pedersen_ptr": 7,
+                        "__main__.main.res_2": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 53,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 50,
+                            "end_line": 6,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 17,
+                                    "input_file": {
+                                        "filename": "hash.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 17
+                                },
+                                "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
+                            ],
+                            "start_col": 23,
+                            "start_line": 6
+                        },
+                        "While expanding the reference 'pedersen_ptr' in:"
+                    ],
+                    "start_col": 41,
+                    "start_line": 9
+                }
+            },
+            "21": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 9,
+                        "__main__.main.pedersen_ptr": 7,
+                        "__main__.main.res_2": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 17
+                }
+            },
+            "22": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 22
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 23,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 23
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 24
+                }
+            },
+            "25": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 28,
+                    "end_line": 25,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 25
+                }
+            },
+            "27": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 26,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 26
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 27,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 27
+                }
+            },
+            "29": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 49,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 22,
+                    "start_line": 29
+                }
+            },
+            "31": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 67,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 53,
+                    "start_line": 29
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v1"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v1.hash_ptr": 10,
+                        "__main__.hash_func_v1.u": 14,
+                        "__main__.hash_func_v1.x": 11,
+                        "__main__.hash_func_v1.y": 12,
+                        "__main__.hash_func_v1.z": 13
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 68,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 29
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 18,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 35,
+                            "end_line": 13,
+                            "input_file": {
+                                "filename": "/Users/nael/cairo_venv/lib/python3.10/site-packages/starkware/cairo/common/hash.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 25,
+                                    "end_line": 33,
+                                    "input_file": {
+                                        "filename": "hash.cairo"
+                                    },
+                                    "start_col": 15,
+                                    "start_line": 33
+                                },
+                                "While trying to retrieve the implicit argument 'hash_ptr' in:"
+                            ],
+                            "start_col": 12,
+                            "start_line": 13
+                        },
+                        "While expanding the reference 'hash_ptr' in:"
+                    ],
+                    "start_col": 19,
+                    "start_line": 32
+                }
+            },
+            "34": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 18,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 22,
+                            "end_line": 33,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "start_col": 21,
+                            "start_line": 33
+                        },
+                        "While expanding the reference 'x' in:"
+                    ],
+                    "start_col": 44,
+                    "start_line": 32
+                }
+            },
+            "35": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 18,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 62,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 24,
+                            "end_line": 33,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "start_col": 23,
+                            "start_line": 33
+                        },
+                        "While expanding the reference 'y' in:"
+                    ],
+                    "start_col": 54,
+                    "start_line": 32
+                }
+            },
+            "36": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 18,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 15,
+                    "start_line": 33
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 19,
+                        "__main__.hash_func_v2.u": 20,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 72,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 24,
+                            "end_line": 34,
+                            "input_file": {
+                                "filename": "hash.cairo"
+                            },
+                            "start_col": 23,
+                            "start_line": 34
+                        },
+                        "While expanding the reference 'z' in:"
+                    ],
+                    "start_col": 64,
+                    "start_line": 32
+                }
+            },
+            "39": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 19,
+                        "__main__.hash_func_v2.u": 20,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 15,
+                    "start_line": 34
+                }
+            },
+            "41": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash_func_v2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 12
+                    },
+                    "reference_ids": {
+                        "__main__.hash_func_v2.hash_ptr": 21,
+                        "__main__.hash_func_v2.r": 22,
+                        "__main__.hash_func_v2.u": 20,
+                        "__main__.hash_func_v2.x": 15,
+                        "__main__.hash_func_v2.y": 16,
+                        "__main__.hash_func_v2.z": 17
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 35,
+                    "input_file": {
+                        "filename": "hash.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 35
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.HashBuiltin": {
+            "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+            "type": "alias"
+        },
+        "__main__.hash2": {
+            "destination": "starkware.cairo.common.hash.hash2",
+            "type": "alias"
+        },
+        "__main__.hash_func_v1": {
+            "decorators": [],
+            "pc": 22,
+            "type": "function"
+        },
+        "__main__.hash_func_v1.Args": {
+            "full_name": "__main__.hash_func_v1.Args",
+            "members": {
+                "hash_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "z": {
+                    "cairo_type": "felt",
+                    "offset": 3
+                }
+            },
+            "size": 4,
+            "type": "struct"
+        },
+        "__main__.hash_func_v1.ImplicitArgs": {
+            "full_name": "__main__.hash_func_v1.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.hash_func_v1.Return": {
+            "cairo_type": "(hash_ptr : felt, w : felt)",
+            "type": "type_definition"
+        },
+        "__main__.hash_func_v1.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.hash_func_v1.hash_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v1.hash_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 22,
+                    "value": "[cast(fp + (-6), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v1.u": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v1.u",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 22,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v1.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v1.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 22,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v1.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v1.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 22,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v1.z": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v1.z",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 22,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2": {
+            "decorators": [],
+            "pc": 33,
+            "type": "function"
+        },
+        "__main__.hash_func_v2.Args": {
+            "full_name": "__main__.hash_func_v2.Args",
+            "members": {
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "z": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "__main__.hash_func_v2.ImplicitArgs": {
+            "full_name": "__main__.hash_func_v2.ImplicitArgs",
+            "members": {
+                "hash_ptr": {
+                    "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.hash_func_v2.Return": {
+            "cairo_type": "(res : felt)",
+            "type": "type_definition"
+        },
+        "__main__.hash_func_v2.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.hash_func_v2.hash_ptr": {
+            "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+            "full_name": "__main__.hash_func_v2.hash_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 33,
+                    "value": "[cast(fp + (-6), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 7
+                    },
+                    "pc": 38,
+                    "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 12
+                    },
+                    "pc": 41,
+                    "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2.r": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v2.r",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 12
+                    },
+                    "pc": 41,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2.u": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v2.u",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 7
+                    },
+                    "pc": 38,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v2.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 33,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v2.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 33,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash_func_v2.z": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash_func_v2.z",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 33,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 6,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {
+                "output_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "pedersen_ptr": {
+                    "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.output_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 6,
+                    "value": "[cast(fp + (-4), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 18,
+                    "value": "cast([fp + (-4)] + 1, felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.pedersen_ptr": {
+            "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+            "full_name": "__main__.main.pedersen_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 6,
+                    "value": "[cast(fp + (-3), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 17,
+                    "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.res_2": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.res_2",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 17,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.cairo_builtins.BitwiseBuiltin": {
+            "full_name": "starkware.cairo.common.cairo_builtins.BitwiseBuiltin",
+            "members": {
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "x_and_y": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "x_or_y": {
+                    "cairo_type": "felt",
+                    "offset": 4
+                },
+                "x_xor_y": {
+                    "cairo_type": "felt",
+                    "offset": 3
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 5,
+            "type": "struct"
+        },
+        "starkware.cairo.common.cairo_builtins.EcOpBuiltin": {
+            "full_name": "starkware.cairo.common.cairo_builtins.EcOpBuiltin",
+            "members": {
+                "m": {
+                    "cairo_type": "felt",
+                    "offset": 4
+                },
+                "p": {
+                    "cairo_type": "starkware.cairo.common.ec_point.EcPoint",
+                    "offset": 0
+                },
+                "q": {
+                    "cairo_type": "starkware.cairo.common.ec_point.EcPoint",
+                    "offset": 2
+                },
+                "r": {
+                    "cairo_type": "starkware.cairo.common.ec_point.EcPoint",
+                    "offset": 5
+                }
+            },
+            "size": 7,
+            "type": "struct"
+        },
+        "starkware.cairo.common.cairo_builtins.EcPoint": {
+            "destination": "starkware.cairo.common.ec_point.EcPoint",
+            "type": "alias"
+        },
+        "starkware.cairo.common.cairo_builtins.HashBuiltin": {
+            "full_name": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+            "members": {
+                "result": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "starkware.cairo.common.cairo_builtins.SignatureBuiltin": {
+            "full_name": "starkware.cairo.common.cairo_builtins.SignatureBuiltin",
+            "members": {
+                "message": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "pub_key": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.ec_point.EcPoint": {
+            "full_name": "starkware.cairo.common.ec_point.EcPoint",
+            "members": {
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.hash.HashBuiltin": {
+            "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
+            "type": "alias"
+        },
+        "starkware.cairo.common.hash.hash2": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.common.hash.hash2.Args": {
+            "full_name": "starkware.cairo.common.hash.hash2.Args",
+            "members": {
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.common.hash.hash2.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.hash.hash2.ImplicitArgs",
+            "members": {
+                "hash_ptr": {
+                    "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.hash.hash2.Return": {
+            "cairo_type": "(result : felt)",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.hash.hash2.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.hash.hash2.hash_ptr": {
+            "cairo_type": "starkware.cairo.common.cairo_builtins.HashBuiltin*",
+            "full_name": "starkware.cairo.common.hash.hash2.hash_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-5), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 2,
+                    "value": "cast([fp + (-5)] + 3, starkware.cairo.common.cairo_builtins.HashBuiltin*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.hash.hash2.result": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.hash.hash2.result",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 2,
+                    "value": "[cast([fp + (-5)] + 2, felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.hash.hash2.x": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.hash.hash2.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.hash.hash2.y": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.hash.hash2.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-5), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 2,
+                "value": "[cast([fp + (-5)] + 2, felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 2,
+                "value": "cast([fp + (-5)] + 3, starkware.cairo.common.cairo_builtins.HashBuiltin*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 6,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 6,
+                "value": "[cast(fp + (-3), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 17,
+                "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 17,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 18,
+                "value": "cast([fp + (-4)] + 1, felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 22,
+                "value": "[cast(fp + (-6), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 22,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 22,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 22,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 22,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 33,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 33,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 33,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 33,
+                "value": "[cast(fp + (-6), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 7
+                },
+                "pc": 38,
+                "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 7
+                },
+                "pc": 38,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 12
+                },
+                "pc": 41,
+                "value": "[cast(ap + (-2), starkware.cairo.common.cairo_builtins.HashBuiltin**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 12
+                },
+                "pc": 41,
+                "value": "[cast(ap + (-1), felt*)]"
+            }
+        ]
+    }
+}
